@@ -1,0 +1,28 @@
+
+body {
+    
+    background-color: rgb(204, 211, 204);
+    color: black;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+#container {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #d6c6c6;
+    padding: 20px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+span {
+    display: block;
+}
+
+div {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
