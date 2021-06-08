@@ -1,0 +1,152 @@
+
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+}
+
+.color, h1, a{
+    color: orange;
+}
+
+.content {
+    width:794px; 
+    height:1122px;
+    margin: auto;
+}
+
+/* HEADER */
+
+h1 {
+    margin-bottom: 0;
+}
+
+#tag {
+    margin: 0;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#contact span, #strengths span {
+    display: flex;
+}
+
+#contact span i {
+    margin-right: 10px;
+}
+
+/* SKILLS */
+
+#skills ul, #contact, #strengths ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    display: inline;
+    border-bottom: gray 2px solid;
+    margin: 8px;
+    padding: 0px 6px 3px 6px;
+}
+
+/* FLEX-CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 55%;
+}
+
+.right {
+    width: 40%;
+}
+
+/* EXPERIENCE */
+
+#experience ul li {
+    margin-bottom: 8px;
+}
+
+#experience ul {
+    padding-left: 20px;
+}
+
+/* STRENGTHS */
+
+#strengths p {
+    margin-top: 0;
+}
+
+#strengths .last {
+    margin-bottom: 0
+}
+
+#strengths i {
+    margin-right: 10px;
+}
+
+/* PROGRAMMING */
+
+#programming ul li {
+    margin-bottom: 5px;
+}
+
+/* EDUCATION */
+
+#education span {
+    display: block;
+}
+
+#education .uni {
+    padding-bottom: 8px;
+}
+
+#education ul {
+    padding-left: 20px;
+}
+
+#education h3 {
+    margin-bottom: 8px;
+    margin-top: 0;
+    
+}
+
+#ed-container {
+    display: flex;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-left: 2px solid black;
+    padding: 5px 5px 5px 10px;
+    align-items: center;
+}
+
+/* PROJECT */
+.b-border {
+    padding-bottom:10px;
+    border-bottom: 2px dotted grey;
+}
+
+.projects h3 {
+    margin-bottom: 8px;
+}
+
+.projects p {
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
