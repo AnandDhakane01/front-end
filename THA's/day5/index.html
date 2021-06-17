@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form>
+        <div id="input">
+            <input autocomplete="off" autofocus placeholder="Enter first no. " type="text" id="first_num">
+            <input autocomplete="off" placeholder="Enter second no. " type="text" id="second_num">
+        </div>  
+
+        <input type="submit" id="add" value="add(+)" class="operations">
+        <input type="submit" id="subtract" value="subtract(-)" class="operations">
+        <input type="submit" id="multiply" value="multiply(*)" class="operations">
+        <input type="submit" id="divide" value="divide(/)" class="operations">
+    </form>
+    
+    <div id="answer">
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
