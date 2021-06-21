@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 let first = document.querySelector("#first_num").value;
                 let second = document.querySelector("#second_num").value;
                 let operation = button.id;
-                if (isNaN(first) || isNaN(second)) {
+                if ((first === "") || (second === "")) {
                     ans.innerHTML = "please enter the numbers!";
                 }
                 else {
