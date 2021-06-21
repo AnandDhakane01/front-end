@@ -4,42 +4,32 @@
 
 document.addEventListener('DOMContentLoaded', function() {
         
-        document.querySelector('#add').onclick = () => {
-            const first = document.querySelector("#first_num").value;
-            const second = document.querySelector("#second_num").value;
-            document.querySelector('#answer').innerHTML = parseInt(first)+parseInt(second);
-            document.querySelector('#first_num').value = "";
-            document.querySelector('#second_num').value = "";
+        const ans = document.querySelector('#answer');
 
-            return false;
-        };
-
-        document.querySelector('#subtract').onclick = () => {
-            const first = document.querySelector("#first_num").value;
-            const second = document.querySelector("#second_num").value;
-            document.querySelector('#answer').innerHTML = parseInt(first)-parseInt(second);
-            document.querySelector('#first_num').value = "";
-            document.querySelector('#second_num').value = "";
-            return false;
-        };
-        
-        document.querySelector('#multiply').onclick = () => {
-            const first = document.querySelector("#first_num").value;
-            const second = document.querySelector("#second_num").value;
-            document.querySelector('#answer').innerHTML = parseInt(first)*parseInt(second);
-            document.querySelector('#first_num').value = "";
-            document.querySelector('#second_num').value = "";
-            return false;
-        };
-        
-        
-        document.querySelector('#divide').onclick = () => {
-            const first = document.querySelector("#first_num").value;
-            const second = document.querySelector("#second_num").value;
-            document.querySelector('#answer').innerHTML = parseInt(first)/parseInt(second);
-            document.querySelector('#first_num').value = "";
-            document.querySelector('#second_num').value = "";
-            return false;
-        };
-        return false;
-});
+        document.querySelectorAll(".operations").forEach(function(button)  {
+            button.addEventListener('click', (e) => {
+                let first = document.querySelector("#first_num").value;
+                let second = document.querySelector("#second_num").value;
+                let operation = button.id;
+                if (isNaN(first) || isNaN(second)) {
+                    ans.innerHTML = "please enter the numbers!";
+                }
+                else {
+                    switch(operation) {
+                        case 'add':
+                            ans.innerHTML = parseInt(first) + parseInt(second);
+                            break;
+                        case 'subtract':
+                            ans.innerHTML = parseInt(first) - parseInt(second);
+                            break;
+                        case 'multiply':
+                            ans.innerHTML = parseInt(first) * parseInt(second);
+                            break;
+                        case 'divide':
+                            ans.innerHTML = parseInt(first) / parseInt(second);
+                            break;
+                    }
+                }
+            });
+        });
+    });
