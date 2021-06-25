@@ -27,12 +27,18 @@ console.log("\n");
 function first(arr, k) {
     k = k || 0;
 
-    let res = [];
-    for (let i = 0; i <= k; i++) {
-        res.push(arr[i]);
+    res = [];
+
+    if (k == 0) {
+        return [arr[0]];
+    }
+    else {
+        for (let i = 0; i < k; i++) {
+            res.push(arr[i]);
+        }
     }
     return res;
-}
+};
 console.log("Question 3:");
 console.log(first([7, 9, 0, -2]));
 console.log(first([],3));
