@@ -33,10 +33,8 @@ function first(arr, k) {
         return [arr[0]];
     }
     else {
-        for (let i = 0; i < k; i++) {
-            res.push(arr[i]);
+        return arr.slice(0, k);
         }
-    }
     return res;
 };
 console.log("Question 3:");
