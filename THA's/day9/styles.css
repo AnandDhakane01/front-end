@@ -1,0 +1,59 @@
+/* // use only the available space inside the 400x400 frame */
+.frame {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 770px;
+	height:396px; 
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+	background: #fff;
+	color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased; */
+	z-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #fff;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pix {
+	height: 60px;
+	width: 86px;
+	margin: 5px;
+	background-color:rgb(235, 235, 123);
+	border: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 10%;
+}
+
+.pix:hover {
+	cursor:pointer;
+}
+
+.center {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.clicked {
+	background-color: black;
+	color: white;
+}
+
+/* seat status section */
+.seat-status {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	display: flex;
+	justify-content: space-between;
+	width: 770px;
+	margin: 0 auto;
+}
