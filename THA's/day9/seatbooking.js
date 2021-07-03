@@ -2,10 +2,8 @@ var seatsRemaining = 40;
 var seatsBooked = 0;
 
 //make the seats
-var seatNumber = 1;
 for (let i = 0; i < 40; i++) {
-	add_pix(seatNumber);
-    seatNumber += 1;
+	add_pix(i+1);
 }
 
 //selected seats
