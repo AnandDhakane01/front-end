@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Zen Loop', cursive; 
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(247, 234, 234);
+}
+
+.que-main {
+    margin: 50px 0px;
+}
+
+.card {
+    background-color: grey;
+    height: 400px;
+    width: 500px;
+    margin: 20px 0px; 
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.question {
+    margin-top: 20px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.option {
+    background-color: lightgreen;
+    border: none;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    min-width: 45%;
+    border-radius: 10px;
+}
+
+.next {
+    padding: 3px;
+    margin-top: 40px;
+    border: none;
+    align-self: flex-end;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 8px;
+}
+
+
+.next:hover {
+    font-weight: bold;
+}
+
+
+.option:hover {
+    background-color: green;
+    color: white;
+}
+
+
