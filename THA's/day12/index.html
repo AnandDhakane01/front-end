@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3346031148.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>TODO APP</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <input onkeypress="addTask(event)" class="userInput" placeholder="TODO" autofocus="on">
+            <button  onclick="addTask(event)" class="submit">Add Task</button> 
+            <ul class="tasks">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
