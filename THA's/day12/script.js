@@ -14,15 +14,12 @@ function addTask(event) {
             
             userInput.value = "";
             localStorage.setItem("todos", todosList.innerHTML);
-        } else {
-            console.log("Enter a valid todo item!");
         }
     }
 }
 
 // delete todo items, update todos in local storage
 todosList.addEventListener('click', (e) => {
-    console.log(e.target.tagName);
     if (e.target.tagName == "I" || e.target.tagName == "SPAN")  {
         if (e.target.tagName == "I") {
             e.target.parentElement.parentElement.remove()
@@ -38,6 +35,5 @@ todosList.addEventListener('click', (e) => {
 
 // fetch todo items from local storage
 window.addEventListener('load', () => {
-    console.log("sdfjakl");
     todosList.innerHTML += localStorage.getItem("todos"); 
 })
