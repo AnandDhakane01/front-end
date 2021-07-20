@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 13px;
+}
+
+h4 {
+    margin: 4px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    overflow-y: auto;
+    overflow-x: scroll;
+    padding: 10px 0px 10px;
+    background-color: green;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    position: relative;
+    margin: 5px;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow:3px 1px 9px -1px #0d0e0c;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+
+.cal-col {
+    height: 100%;
+    width: 70px;
+    border-radius: 20px 0px 0px 20px;
+    margin-right: 7px;
+}
+
+button {
+    padding: 8px;
+    position: absolute;
+    right: 10px;
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
