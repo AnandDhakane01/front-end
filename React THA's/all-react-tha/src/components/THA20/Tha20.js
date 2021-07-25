@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import CalorieCard from './CalorieCard'
 import data from './data'
-import './styles.css'
-
 
 export default function THA20() {
     // state

@@ -56,7 +56,7 @@ h4 {
     margin-right: 7px;
 }
 
-button {
+.tha20-delete {
     padding: 8px;
     position: absolute;
     right: 10px;
@@ -65,3 +65,72 @@ button {
     color: white;
     border-radius: 10px;
 }
+
+
+/* THA 21 */
+
+.Tha21 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tha21-form {
+    margin-bottom: 30px;
+    background-color: #F38BA0;
+    padding: 20px;  
+}
+
+.tha21-button {
+    padding: 5px 10px;
+    color: #F38BA0;
+    background-color: #B5EAEA;
+    border: none;
+    margin: 0px 5px;
+}
+
+.input-field {
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+}
+
+.input-field {
+    outline: none;
+    border: none;
+}
+
+.item {
+    background-color: #F38BA0;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.item-foodname {
+    margin-bottom: 5px;
+}
+
+.item-calories {
+    margin: 10px;
+}
+
+.item-delete {
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-edit {
+    margin: 5px;
+    padding: 5px;
+}
+

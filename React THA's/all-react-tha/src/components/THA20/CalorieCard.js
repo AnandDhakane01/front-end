@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles.css'
 
 function CalorieCard(props) {
 
@@ -16,7 +15,7 @@ function CalorieCard(props) {
             <p>You have consumed {props.calorieNo} cals today</p>
             <br/>
         </div>
-            <button onClick={(e) => props.deleteCalCard(props.foodName)}>delete</button>
+            <button class="tha20-delete" onClick={(e) => props.deleteCalCard(props.foodName)}>delete</button>
     </div>
     )
 }

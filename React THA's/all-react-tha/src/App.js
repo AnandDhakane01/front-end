@@ -1,29 +1,16 @@
-import React, { useState } from 'react'
-import CalorieCard from './components/THA20/CalorieCard'
-import data from './components/THA20/data'
-import './components/THA20/styles.css'
-
+import React from 'react'
+import THA20 from './components/THA20/Tha20'
+import THA21 from './components/THA21/Tha21'
+import './styles.css'
 
 
 function App() {
-    // state
-    const [items, setItems] = useState(data);
-
-    const deleteCalCard = (food) => {
-        let updatedItems = items.filter(item => item.foodName !== food)
-        setItems(updatedItems);
-    }
-    const cardComponents = items.map(item => {
-        return <CalorieCard key={item.id} foodName={item.foodName} calorieNo={item.calorieNo} deleteCalCard = {deleteCalCard}/>
-    })
 
     return (
-        <div className="main">
-            <h2>Calorie Tracker</h2>
-            <div className="container">
-                {cardComponents}
-            </div>
-        </div>
+        <>
+        {/* <THA20/> */}
+        <THA21 />
+        </>
     )
 }
 
