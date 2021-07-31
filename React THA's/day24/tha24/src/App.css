@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 20px 10px;
+    background-color: cyan;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+/* Main Content */
+
+.main-content {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.login-button {
+    padding: 5px;
+    margin: 10px;
+}
