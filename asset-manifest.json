@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React%20THA's/day28/tha28/static/css/main.5aa4a43e.chunk.css",
+    "main.js": "/React%20THA's/day28/tha28/static/js/main.cdf8780b.chunk.js",
+    "main.js.map": "/React%20THA's/day28/tha28/static/js/main.cdf8780b.chunk.js.map",
+    "runtime-main.js": "/React%20THA's/day28/tha28/static/js/runtime-main.7fcaaa29.js",
+    "runtime-main.js.map": "/React%20THA's/day28/tha28/static/js/runtime-main.7fcaaa29.js.map",
+    "static/css/2.818011ed.chunk.css": "/React%20THA's/day28/tha28/static/css/2.818011ed.chunk.css",
+    "static/js/2.8d0f5ae0.chunk.js": "/React%20THA's/day28/tha28/static/js/2.8d0f5ae0.chunk.js",
+    "static/js/2.8d0f5ae0.chunk.js.map": "/React%20THA's/day28/tha28/static/js/2.8d0f5ae0.chunk.js.map",
+    "index.html": "/React%20THA's/day28/tha28/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/React%20THA's/day28/tha28/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.5aa4a43e.chunk.css.map": "/React%20THA's/day28/tha28/static/css/main.5aa4a43e.chunk.css.map",
+    "static/js/2.8d0f5ae0.chunk.js.LICENSE.txt": "/React%20THA's/day28/tha28/static/js/2.8d0f5ae0.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/React%20THA's/day28/tha28/static/media/dorian-mongel-9zQkRU9IsDk-unsplash.77335ffe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fcaaa29.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.8d0f5ae0.chunk.js",
+    "static/css/main.5aa4a43e.chunk.css",
+    "static/js/main.cdf8780b.chunk.js"
+  ]
+}
