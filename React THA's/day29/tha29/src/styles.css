@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    color: white;
+}
+
+.w-icon {
+    margin: 10px 0px 20px 0px;
+}
+
+.container {
+    padding: 0;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./dorian-mongel-9zQkRU9IsDk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.row {
+    margin: 20px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 8px 20px;
+}
+
+.temp {
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+}
+
+.main {
+    padding: 20px;
+    height: 300px;
+}
+
+.calendar {
+    padding-right: 8px;
+}
+
+.location {
+    padding-left: 8px;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    max-width: 720px;
+}
+
+.toggle-theme {
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+
+.theme {
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: black;
+}
+
+.dark input {
+    background-color: black;
+    border: none;
+
+}
